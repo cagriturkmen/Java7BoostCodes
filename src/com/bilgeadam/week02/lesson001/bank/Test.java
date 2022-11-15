@@ -9,6 +9,7 @@ public class Test {
 	
 		Garanti g = new Garanti();
 		float rate = g.rateOfInterest();
+		//calculateAnnualIncome(rate);
 		System.out.println(rate);
 	
 	}

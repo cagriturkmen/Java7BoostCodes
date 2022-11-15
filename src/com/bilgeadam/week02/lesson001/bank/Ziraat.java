@@ -5,7 +5,7 @@ public class Ziraat implements Bank{
 	@Override
 	public float rateOfInterest() {
 		// TODO Auto-generated method stub
-		return 15.5f;
+		return 13.5f;
 	}
 
 }
