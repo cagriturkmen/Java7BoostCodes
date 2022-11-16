@@ -11,6 +11,7 @@ public class Test {
 
 		//Parametresiz contructorla oluşturduğum person
 		Person person3 = new Person();
+		
 		person3.age=20;
 		person3.name="John";
 		person3.occupation="Student";

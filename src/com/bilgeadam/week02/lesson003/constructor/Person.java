@@ -8,18 +8,17 @@ public class Person {
 	public int age;
 	public String occupation;
 	public double salary;
-		
 	
+	public Person() {
+		
+	}
+
 	public Person(String name, int age) {
-		super();
 		this.name = name;
 		this.age = age;
 	}
 
 
-	public Person() {
-		System.out.println("Bir person yarattın");
-	}
 
 	public Person(String name, int age, String occupation, double salary) {
 		System.out.println("Bir person yarattın");
