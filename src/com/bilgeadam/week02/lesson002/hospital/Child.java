@@ -1,6 +1,10 @@
 package com.bilgeadam.week02.lesson002.hospital;
 
 public class Child extends Person {
+	//Clean code
+	public Child() {
+		
+	}
 
 	@Override
 	void checkUp() {
