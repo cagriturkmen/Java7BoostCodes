@@ -1,5 +1,7 @@
 package com.bilgeadam.week02.lesson004.hw;
 
+import java.util.List;
+
 public class Student extends Person {
 	
 	public Course course;
