@@ -1,4 +1,4 @@
-package com.bilgeadam.week03.hw;
+package com.bilgeadam.week03.lesson001.hw;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -1,4 +1,4 @@
-package com.bilgeadam.week03.listexamples;
+package com.bilgeadam.week03.lesson001.listexamples;
 
 import java.util.ArrayList;
 import java.util.List;
