@@ -46,7 +46,7 @@ public class Atm {
 			System.out.println("Kullanici adi veya sifresi yanlis");
 			if(count==0) {
 				System.out.println("Kartiniz bloke olmustur. Lutfen banka ile iletisime gecin.");
-				condition= false;
+				break;
 			}else {
 				System.out.println("Kalan hakkiniz: "+ count);
 			}
