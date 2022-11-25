@@ -6,6 +6,8 @@ public class ToyCar {
 	int distanceX=0;
 	int distanceY=0;
 	
+	
+	
 	void charge() {
 		if(batteryCapacity>=5) {
 			System.out.println("Battery Full.!");
