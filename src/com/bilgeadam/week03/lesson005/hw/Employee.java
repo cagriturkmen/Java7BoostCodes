@@ -14,6 +14,12 @@ public abstract class Employee implements Accountable {
 		this.job = job;
 		this.salary = salary;
 	}
+
+
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", lastname=" + lastname + ", job=" + job + ", salary=" + salary + "]";
+	}
 	
 	
 	
