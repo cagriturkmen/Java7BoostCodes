@@ -7,6 +7,9 @@ public class ToyCarTest {
 	public static void main(String[] args) {
 		
 		ToyCar toyCar = new ToyCar();
+		
+		
+		
 		Scanner scanner = new Scanner(System.in);
 		boolean condition=true;
 		

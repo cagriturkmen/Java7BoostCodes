@@ -2,12 +2,16 @@ package com.bilgeadam.week03.lesson004;
 
 public class ToyCar {
 	
-	private int batteryCapacity=5;
-	int distanceX=0;
-	int distanceY=0;
+	private int batteryCapacity;
+	int distanceX;
+	int distanceY;	
 	
-	
-	
+	public ToyCar() {
+		this.batteryCapacity=5;
+		this.distanceX=0;
+		this.distanceY=0;
+	}
+
 	void charge() {
 		if(batteryCapacity>=5) {
 			System.out.println("Battery Full.!");

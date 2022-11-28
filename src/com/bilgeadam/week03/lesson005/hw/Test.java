@@ -5,6 +5,14 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Vector;
 
+/*
+ Single Responsibility
+ -- Open/Close Principle
+ Liskov's Substition Principle
+ Interface Segregation
+ Dependency Inversion 
+ * */
+
 public class Test {
 
 	public static void main(String[] args) {
