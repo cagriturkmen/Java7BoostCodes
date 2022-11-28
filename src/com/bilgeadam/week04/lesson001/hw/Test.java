@@ -10,12 +10,10 @@ public class Test {
 		
 		BankAccount account1 = new CheckingAccount("Vsiz10002132", "Cagri'nin vadesiz hesabı");
 		BankAccount account2 = new SavingsAccounts("Vli1000900212", "Cagrı'nın vadeli hesabı", 14);
-		
 		List<BankAccount> accounts = new ArrayList<>();
 		
-		accounts.add(account2);
+		accounts.add(account2);		
 		accounts.add(account1);
-		
 		Bank bank = new Bank("HSBC",accounts );
 		
 		System.out.println(bank);
